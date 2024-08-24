@@ -1,0 +1,17 @@
+{
+    "name": "mustafa/sushico",
+    "require": {
+        "nesbot/carbon": "^3.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mustafa\\Sushico\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mustafadervisglu",
+            "email": "mustafadervisoglu16@gmail.com"
+        }
+    ]
+}

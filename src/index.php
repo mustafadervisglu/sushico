@@ -11,11 +11,9 @@ use Src\Utils\ResponseHelper;
 $pathInfo = $_SERVER["PATH_INFO"];
 $token = $_GET['token'] ?? "";
 
-
-
 $documentController = new DocumentController(new DocumentService());
 $authController = new AuthController(new LoginService());
-// TODO:: burayı response helper ile güzelleştir
+
 if ($pathInfo === '/document' && $_SERVER['REQUEST_METHOD'] === 'GET') {
     AuthGuard::handle();
 

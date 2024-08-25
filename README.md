@@ -1,7 +1,7 @@
 # Sushico Blog App
 
 ## Kurulum
-
+Bilgisayarınızda php, composer ve docker yüklü olmalıdır.
 ```
 composer install
 ```
@@ -12,7 +12,7 @@ Uygulamayı çalıştırmak için önce docker-compose ile mysql ve redis
 servislerini ayağa kaldırın.
 
 ```
-docker-compose -d up
+docker-compose up -d
 ```
 
 > Bu adımda veritabanı ve tabloları otomatik olarak oluşturulmaktadır

@@ -1,0 +1,113 @@
+{
+	"info": {
+		"_postman_id": "72e3770c-4b5d-49f6-a4b2-1f37bc3f732e",
+		"name": "Sushico",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19575641",
+		"_collection_link": "https://lively-water-426726.postman.co/workspace/90pixel~1914cf6a-c32f-4e57-927e-a87a1336c8cf/collection/19575641-72e3770c-4b5d-49f6-a4b2-1f37bc3f732e?action=share&source=collection_link&creator=19575641"
+	},
+	"item": [
+		{
+			"name": "Create document",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/document?id=2&token=293d2e0b17178aed214b97f2fe0b08a989fed00dc81e783f9eaab571d180931a",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"document"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "2"
+						},
+						{
+							"key": "token",
+							"value": "293d2e0b17178aed214b97f2fe0b08a989fed00dc81e783f9eaab571d180931a"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Document search",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/document?id=12",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"document"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "12"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login ",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get document by id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/document?id=2&token=293d2e0b17178aed214b97f2fe0b08a989fed00dc81e783f9eaab571d180931a",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"document"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "2"
+						},
+						{
+							"key": "token",
+							"value": "293d2e0b17178aed214b97f2fe0b08a989fed00dc81e783f9eaab571d180931a"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
